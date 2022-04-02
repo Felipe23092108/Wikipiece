@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+
+html {
+background-image: url("Imagem/wallpapersden.com_one-piece-anime_2560x1440.jpg");
+background-size: cover;
+
+background-repeat: no-repeat;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto Slab', serif;
+}
+header{
+    width: 60%;
+}
+
+#logo{
+    width: 25%;
+
+}
+
+.lista{
+    float: right;
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+.lista button{
+    width: 108px;
+    background-color: none;
+    border-radius: 10px;
+    margin: 1%;
+    height: 80px;
+}
+
+.lista button img{
+width: webkit-fill-available    ;
+}
+
+.flex{
+    display: flex;
+}
+
+.horizontal {
+    flex-direction: row;
+}
+
+.vertical{
+    flex-direction:column;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    z-index: 2;
+}
+
+.card{
+    min-height: 700px;
+    width: 40%;
+    min-width: 350px;
+    margin: 1%;
+    padding: 1%;
+    /* background-image: url("Imagem/one-piece-wanted-poster-template-thumb.png"); */
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    /* padding-top: 10%; */
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.card span{
+    align-self: center;
+    margin-right: 10px;
+}
+
+
+.item {
+width: 75px;   
+
+}
+
+#personagem {
+width: 100%;
+}
+
+#luffy {
+
+background-color: firebrick
+
+}
+
+#zoro {
+background-color: greenyellow;
+}
+
+#nami {
+background-color: orange;
+}
+
+#usopp {
+background-color: chocolate;
+}
+
+#sanji {
+background-color: yellow;
+}
+
+#chopper {
+background-color: dodgerblue;
+}
+
+#robin {
+background-color: pink;
+}
+
+#franky {
+background-color: aquamarine;
+}
+
+#brook {
+background-color: white;
+}
+
+#jinbe {
+background-color: blue;
+}
+
+#doflamingo {
+background-color: pink;
+
+}
+
+#ace {
+background-color: red;
+
+}
+
+#barbanegra{
+background-color: black;
+   
+}
+
+#mihawk {
+background-color: red;
+
+}
+
+#kaido {
+background-color: black;
+}
+
+#law {
+background-color: black;
+}
+
+#hancock {
+background-color: red;
+}
+
+#gold {
+background-color: red;
+}
+
+
+.divimg {width: 60%;/* justify-content:center; *//* background-color: aquamarine; */position: absolute;top: 20%;left: 25%;z-index: 1;}
+
+#Poster {width: 100%;height: 100%;/* position: relative; *//* top: 0; */z-index: 2;/* left: 0; */}
+
+.info{
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    z-index: 2;
+    text-align: center;
+}
+
+.text {
+margin: 0%;
+padding: 0%;
+
+}
+
+.josiane {
+background-image:url("Imagem/pergaminho\ de\ cria.png");
+width: 500px;
+background-size: cover;
+height: 650px;
+display: block;
+margin:0 auto
+}
+
+.clovis {
+margin-top:65px;
+}
